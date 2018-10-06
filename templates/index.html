@@ -1,4 +1,4 @@
-{% load static %}
+{% load staticfiles %}
 
 <!DOCTYPE html>
 
@@ -25,6 +25,7 @@
 <!-- 实现方式2 -->
 <script type="text/javascript" src="{% static "css/canvas-nest.js-master/dist/canvas-nest.umd.js" %}"></script>
 <script type="text/javascript">
+    {#alert("{% static "css/canvas-nest.js-master/dist/canvas-nest.umd.js" %}")#}
     var cn1 = new CanvasNest(document.getElementById('area-main'), {
         color: '0,255,0',
         count: 50,
