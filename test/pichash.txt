@@ -1,0 +1,2 @@
+./pic/1.png/.:976e6a2530603b90883c82a43cbd9acf
+./pic/1/1.png:976e6a2530603b90883c82a43cbd9acf
